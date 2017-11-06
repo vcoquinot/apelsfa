@@ -92,6 +92,9 @@ a:hover{
   margin-top: 60px;
 }
 
+#intro p{
+  margin-top: 30px;
+}
 
 /* ----------presentation----------*/
 #presentation{
@@ -307,6 +310,44 @@ footer a:hover{
 
 /* MEDIA QUERIES
 --------------------------------------------------*/
+/* MEDIA QUERIES
+--------------------------------------------------*/
+@media (min-width: 768px) and (max-width:1024px) {
+
+  #navbar a{
+    font-size:14px;
+}   
+
+   #intro h1{
+    padding-top: 25px;
+  }
+}
+
+@media (min-width: 320px) and (max-width:768px) {
+  #intro p{
+    font-size:16px;
+    padding: 0px 5px 5px 5px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px){
+
+  #intro {
+    text-align:justify-center;
+    font-size:18px;
+
+}
+  .navbar{
+    margin-bottom: 50px;
+    font-size:15px;
+  }
+
+  #agenda {
+    margin-top: 10px;
+  }
+
+}
+
 
 /*footer*/
   footer {
