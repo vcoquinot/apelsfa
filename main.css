@@ -1,4 +1,8 @@
-body {
+*{
+  text-align: justify-all;
+}
+
+body{
   font-family: 'Noto Sans', sans-serif;
 }
 
@@ -6,9 +10,9 @@ p{
   font-size:20px;
 }
 
-li{
+li {
   list-style: none;
-  }   
+}   
 
 .glyphicon{
   color: #9abf0f;
@@ -67,29 +71,18 @@ a:hover{
   padding-right: 0px;
 }
 
-/* BOUTONS
-------------------------------------------*/
-
-.btn{
-  border: 2.5px solid transparent;
-  border-radius: 0px;
-  padding: 7px 15px;
-  margin: 3px;
-}
-
-.btn-default{
-  background-color: #ff7477;
-  color:  black; 
-  border-color: #ff7477;
-}
-
 /* ----------------------------------------------------
                     ACCUEIL
 ----------------------------------------------------*/
 
 #accueil {
   max-width: 100%;
+  min-width: 100%;
   margin-top: 60px;
+}
+
+#accueil .glyphicon-chevron-down{
+  margin-top:35px;
 }
 
 #intro p{
@@ -102,7 +95,8 @@ a:hover{
 }
 
 #presentation li{
-   font-size: 20px !important;
+   font-size: 20px ;
+   text-align: left;
 }
 
 #presentation h3{
@@ -142,12 +136,11 @@ a:hover{
 
 /*----------carousel----------*/
 #slides{
-  padding-top:60px ;
-  padding-bottom:60px;
+  padding-top:60px;
 }
 
-  #carousel {
-  max-width: 50%;
+#carousel {
+  max-width: 65%;
   margin:auto;
 }
 
@@ -177,7 +170,6 @@ img{
 
 #financement{
   padding-top: 25px;
-
 }
 
 #financement p{
@@ -204,6 +196,7 @@ img{
   max-width:100%;
   border:solid 2px #9abf0f;
   border-radius: 20px;
+
 }
 
 .gallery img{
@@ -215,10 +208,11 @@ img{
 }
 
 
-/* PAGE AGENDA
+//* ----------------------------------------------------
+PAGE AGENDA
 ----------------------------------------------------*/
-#agenda {
-  margin-top: 50px;
+#agenda{
+  margin-top: 100px;
 }
 
 #agenda p{
@@ -229,13 +223,17 @@ img{
     font-size: 20px;
 }
 
+#agenda .affiches{
+  margin-bottom: 5px; 
+}
+
 #events h2{
   padding-top: 50px;
 }
 
 #entete{
-    background-color: #5cc2d1;
-    font-weight:bold;
+  background-color: #5cc2d1;
+  font-weight:bold;
 }
 
 #entete, #manifestation{
@@ -276,7 +274,6 @@ img{
   max-width: 60% 
 }
 
-
 #actualite h2{
   color:#9abf0f;
 }
@@ -296,7 +293,7 @@ footer{
 }
 
 footer p,footer a{
-  font-size:18px !important;
+  font-size:18px ;
 
 }
 footer a{
@@ -310,8 +307,7 @@ footer a:hover{
 
 /* MEDIA QUERIES
 --------------------------------------------------*/
-/* MEDIA QUERIES
---------------------------------------------------*/
+
 @media (min-width: 768px) and (max-width:1024px) {
 
   #navbar a{
@@ -324,9 +320,56 @@ footer a:hover{
 }
 
 @media (min-width: 320px) and (max-width:768px) {
-  #intro p{
-    font-size:16px;
+  p{
+    font-size:16px !important;
     padding: 0px 5px 5px 5px;
+  }
+
+  h2, h3{
+    font-size:18px;
+  }
+
+  h4{
+    font-size: 15px;
+  }
+
+  .glyphicon-chevron-down{
+    display:none;
+  }
+
+  #presentation{
+  padding-top:5px;
+}
+
+  #presentation li{
+    font-size:16px !important;
+  }
+
+  #slides{
+  padding-top:5px;
+}
+  
+  #carousel {
+  max-width: 85%;
+  margin:auto;
+}
+
+#apelsfa h3{
+  font-size: 16px;
+}
+
+#galerie{
+  padding-top: 5px;
+}
+
+#events {
+
+  margin-left:20px;
+}
+
+  #footer {
+    font-size: 14px !important;
+    text-align: center;
   }
 }
 
