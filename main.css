@@ -88,7 +88,7 @@ a:hover{
 }
 
 #accueil{
-  background-color: #AAEFEC;
+  background-color: #EAFFF6;
 }
 
 #intro p{
@@ -163,7 +163,7 @@ a:hover{
 
 #apelsfa{
   padding-top : 75px;
-  background-color: #AAEFEC;
+  background-color: #D0F1DA;
   padding-bottom: 30px;
 }
 
@@ -180,7 +180,7 @@ img{
 
 #financement{
   padding-top: 25px;
-  background-color: #D0F1DA;
+  background-color: #D9FED4;
   padding-bottom: 100px;
 }
 
@@ -202,7 +202,7 @@ img{
 
 #galerie{
   padding-top: 50px;
-  background-color: #AAEFEC;
+  background-color: #D0F1DA;
 }
 
 #galerie img{
@@ -368,7 +368,7 @@ footer a:hover{
     font-size:16px !important;
     padding-top:10px;
     padding-bottom: 2px;
-  }
+}
 
   #slides{
   padding-top:5px;
@@ -390,12 +390,8 @@ footer a:hover{
 #events {
   margin-left:20px;
 }
-#fb-root { display: none; } 
 
-/* on redéfini la taille du contenu */
-.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] { width: 100% !important; }
-
-  #footer {
+ #footer {
     font-size: 14px !important;
     text-align: center;
   }
