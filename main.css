@@ -253,6 +253,7 @@ PAGE AGENDA
 
 #events{
   background-color:#E4F5EE;
+  background-size:cover;
 }
 #events h2{
   padding-top: 50px;
