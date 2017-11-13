@@ -148,7 +148,7 @@ a:hover{
 }
 
 #carousel {
-  max-width: 65%;
+  max-width: 60%;
   margin:auto;
 }
 
@@ -220,6 +220,8 @@ img{
 //* ----------------------------------------------------
 PAGE AGENDA
 ----------------------------------------------------*/
+/* AFFICHES*/
+
 #agenda{
   
 }
@@ -231,8 +233,8 @@ PAGE AGENDA
 
 #agenda p{
     font-size: 20px;
-    margin-top: 100px;
-    margin-bottom: 30px;
+    margin-top: 90px;
+    padding-bottom: 15px;
 }
 
 #agenda li{
@@ -246,6 +248,8 @@ PAGE AGENDA
 #fonds p{
   margin-top: 30px;
 }
+
+/* CALENDRIER*/
 
 #events{
   background-color:#E4F5EE;
@@ -273,14 +277,29 @@ PAGE AGENDA
 
 #date{
     margin-top:5px;
+}
+#events .glyphicon-chevron-down{
+  margin-top:20px;
+  padding-bottom:20px;
+}
 
+
+/* ACTUALITE /PAGE FB*/
+
+#actualite h2{
+  color:#9abf0f;
+}
+
+#actualite{
+  padding-top: 60px;
+  padding-bottom: 15px;
 }
 
 /* CONTACT
 --------------------------------------------------*/
 #contact {
   margin-top: 50px;
-  margin-bottom:70px;
+  margin-bottom:10px;
 }
 
 #contact h2{
@@ -297,15 +316,19 @@ PAGE AGENDA
   max-width: 60% 
 }
 
-#actualite h2{
-  color:#9abf0f;
-}
-#actualite iframe{
-  margin-top:20px;
-  border:solid 1px #9abf0f;
-  border-radius: 5px;
+#partenaire li{
+  padding-bottom: 5px;
 }
 
+#comment{
+  margin-bottom: 12px;
+  margin-top: 10px;
+  border-bottom: dashed 1px #5cc2d1;
+}
+
+#comment .fa{
+  color:#5cc2d1;
+}
 
 /* FOOTER 
 -------------------------------------------------*/
@@ -389,6 +412,10 @@ footer a:hover{
 
 #events {
   margin-left:20px;
+}
+
+#actualite{
+  margin-bottom: 30px;
 }
 
  #footer {
